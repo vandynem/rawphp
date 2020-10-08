@@ -15,7 +15,7 @@ $app = new \Slim\App([
 		'host'     => env('DB_HOST', 'localhost'),
 		'database' => env('DB_Name', 'raw-php'),
 		'username' => env('DB_USERNAME', 'root'),
-		'password' => env('DB_PASSWORD', 'secret'),
+		'password' => env('DB_PASSWORD', 'admin@168'),
 		'charset'  => 'utf8',
 		'collation' => 'utf8_unicode_ci',
 		'prefix' => '',
@@ -25,7 +25,7 @@ $app = new \Slim\App([
 		'driver' => 'Cake\Database\Driver\Mysql',
 		'database' => env('DB_Name', 'raw-php'),
 		'username' => env('DB_USERNAME', 'root'),
-		'password' => env('DB_PASSWORD', 'secret'),
+		'password' => env('DB_PASSWORD', 'admin@168'),
 		'cacheMetadata' => false // If set to `true` you need to install the optional "cakephp/cache" package.
 
 	]
